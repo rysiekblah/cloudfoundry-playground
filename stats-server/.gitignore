@@ -1,0 +1,12 @@
+.classpath
+.project
+.settings
+.springBeans
+.gradle
+build
+bin
+.rest-shell.log
+spring-shell.log
+/target/
+*.iml
+.idea/

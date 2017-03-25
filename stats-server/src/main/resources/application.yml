@@ -1,0 +1,11 @@
+server:
+  port: 8800
+
+hashmap:
+  service:
+#    url: https://hashmap-cf-service-broker.cfapps.io/hashmap/8c91d811-ed9e-42a1-b89a-7f6ce8cf88f5/
+    url: https://hashmap-cf-service-broker.cfapps.io/hashmap/c71fe94c-2b4d-403d-a1b9-400ae7cd31a5/
+    bindingId: 614c38ff-c1cf-4126-af22-cf8b0b40dbdb
+  admin:
+#    url: https://hashmap-cf-service-broker.cfapps.io/admin/
+#    utltest: http://localhost:8080/admin/

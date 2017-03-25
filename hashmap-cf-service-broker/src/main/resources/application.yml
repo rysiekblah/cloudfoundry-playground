@@ -1,0 +1,41 @@
+security:
+  user:
+    password: user
+
+hashmap:
+  version: 1.0.0-SNAPSHOT
+
+cloudfoundry:
+  servicebroker:
+    catalog:
+      services:
+      - name: "hashmap-kozlowst"
+        id: f7798cc3-b2fd-426f-9d7d-0deaf6b80365
+        description: This is simple HashMap as a Service (HMaaS)
+        bindable: true
+        plan_updatable: true
+        tags:
+        - hashmap
+        - cache
+        metadata:
+          displayName: "HashMap"
+          imageUrl: "https://www.cloudfoundry.org/wp-content/uploads/2015/10/CF_rabbit_Blacksmith_rgb_trans_back-269x300.png"
+          longDescription: "This is very long description"
+          providerDisplayName: "kozlowst"
+          documentationUrl: "github.com/rysiekblah"
+          supportUrl: "github.com/rysiekblah"
+        plans:
+        - name: basic
+          id: f6122427-7bb8-4f2f-bacf-985d1bcf15be
+          description: HMaaS for free
+          free: true
+          metadata:
+            displayName: Basic
+            costs:
+            - amount:
+                usd: 0.0
+              unit: MONTHLY
+            bullets:
+            - Shared HashMap
+            - 5 MB storage
+            - 40 concurrent connections

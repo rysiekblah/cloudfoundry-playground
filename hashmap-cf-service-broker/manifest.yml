@@ -1,0 +1,7 @@
+---
+applications:
+- name: hashmap-service-broker
+  memory: 512M
+  instances: 1
+  host: hashmap-cf-service-broker
+  path: build/libs/hashmap-cf-service-broker-1.0-SNAPSHOT.jar
